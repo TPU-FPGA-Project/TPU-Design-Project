@@ -1,0 +1,16 @@
+# TPU on FPGA Project
+
+Welcome to the TPU on FPGA development repository. This repository is configured for both official and unofficial students working on the project.
+
+## 🛠️ Prerequisites
+- **Toolchain:** AMD/Xilinx Vivado (Recommended: 2024.x or newer)
+- **Git Extensions:** Git LFS (Large File Storage) must be installed.
+
+## 🚀 Quick Start
+1. **Clone the repo:** `git clone <your-repo-link>`
+2. **Fetch large assets (PPTs/IPs):** `git lfs pull`
+3. **Rebuild the Vivado Project Workspace:**
+   - Open Vivado.
+   - Open the Tcl Console at the bottom.
+   - Run: `cd [path/to/this/repo]`
+   - Run: `source recreate_prj.tcl`

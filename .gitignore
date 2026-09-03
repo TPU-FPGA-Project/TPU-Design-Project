@@ -1,0 +1,18 @@
+# Block Vivado UI and build directory outputs
+*.xpr
+*.runs/
+*.srcs/
+*.hw/
+*.sim/
+*.ip_user_files/
+
+# Block logs and temporary journals
+*.log
+*.jou
+*.str
+*.ini
+.Xil/
+
+# OS/System clutter
+.DS_Store
+Thumbs.db

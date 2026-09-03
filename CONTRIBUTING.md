@@ -15,6 +15,7 @@ To keep the workspace clean, place your files strictly into their designated dir
 | **`/software`** | Python scripts, weight quantization utilities, C firmware/drivers, compilers. | Hardware files or general data sheets. |
 | **`/doc`** | Status presentations (`.pptx`), PDFs, data sheets, architectural specs, images. | Code or build tool outputs. |
 | **`/.github`** | GitHub actions workflows, issue or bug report markdown templates. | Project source materials. |
+| **`/constraints`** | Xilinx Design Constraint files (`.xdc`) for physical pin and timing allocations. | Simulation or host software code. |
 
 
 ## 💾 Saving Your Vivado Progress

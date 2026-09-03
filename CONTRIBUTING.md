@@ -4,6 +4,19 @@
 - **Official Students:** Do not push to `main`. Create a feature branch matching your task: `feature/your-name-tpu-module`. Submit a Pull Request (PR) for review.
 - **Unnoficial Students:** You do not have write permissions to this repository. Please **Fork** this repository, apply your changes, and submit a cross-repository Pull Request back to our `main` branch.
 
+## 📁 Directory Map & File Placement
+
+To keep the workspace clean, place your files strictly into their designated directories. Never save loose hardware design files or documentation in the root folder.
+
+| Directory | Content to Place Here | What NOT to Place Here |
+| :--- | :--- | :--- |
+| **`/rtl`** | Custom Verilog (`.v`) and SystemVerilog (`.sv`) core hardware modules. | Simulation testbenches, generated IP bitstreams. |
+| **`/sim`** | Verification testbenches, test fixtures, and simulation models. | Production RTL code files. |
+| **`/software`** | Python scripts, weight quantization utilities, C firmware/drivers, compilers. | Hardware files or general data sheets. |
+| **`/doc`** | Status presentations (`.pptx`), PDFs, data sheets, architectural specs, images. | Code or build tool outputs. |
+| **`/.github`** | GitHub actions workflows, issue or bug report markdown templates. | Project source materials. |
+
+
 ## 💾 Saving Your Vivado Progress
 Before committing code changes, you must regenerate the project script so others can see your workspace setup. In the Vivado Tcl Console, run:
 `write_project_tcl -force recreate_prj.tcl`

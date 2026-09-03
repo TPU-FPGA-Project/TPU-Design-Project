@@ -63,6 +63,14 @@ Presentations and architectural reference sheets must use **kebab-case** (hyphen
   - `2026_09_tpu-architecture-spec-v1.2.pdf`
   - `2026_10_fpga-resource-utilization-report.pptx`
   - `hardware-onboarding-guide.md`
+
+#### 5. Constraints files and configurations (`/constraints`)
+Constraint files must be named using **snake_casing**. To keep the directory clean and files reusable, make sure to follow the naming convention as set up below.
+- **Syntax:** `[component_name]_[purpose].[extension]`
+- **Examples:**
+  - `xc7z020clg484_constraints.xdc`
+  - `xc7z020clg484_port_mapping.xdc`
+
 ## 🔀 Git Commit & Pull Request Conventions
 
 We use a structured naming convention for commits and Pull Requests (PRs) to maintain a highly professional project history. 
